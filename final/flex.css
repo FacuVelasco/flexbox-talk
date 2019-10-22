@@ -1,0 +1,34 @@
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.login {
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.login button {
+  flex-grow: 1;
+}
+
+.list {
+  display: flex;
+  flex-grow: 2;
+  justify-content: space-around;
+}
+
+.list li {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}

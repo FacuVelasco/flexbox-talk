@@ -1,0 +1,83 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body,
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000829;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 10px 30px;
+  background-color: #0f2649;
+}
+
+.brand {
+  margin: 10px;
+}
+
+.brand h1 {
+  margin: 0;
+  color: #fff;
+  margin-left: 15px;
+  width: 170px;
+}
+
+.brand .logo {
+  width: 90px;
+  border-radius: 10px;
+}
+
+section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: #fff;
+}
+
+.login button {
+  font-size: 24px;
+  border-radius: 5px;
+  width: 200px;
+  background-color: #ff062f;
+  color: #fff;
+  margin: 5px;
+  border: none;
+}
+
+.login button:hover {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.list {
+  list-style: none;
+}
+
+.list li {
+  max-width: 120px;
+  min-width: 100px;
+  border-top: 3px solid #62d0ff;
+  margin: 0 5px;
+}
+
+.list p {
+  margin: 0;
+  word-wrap: break-word;
+  display: inline;
+  color: #62d0ff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
